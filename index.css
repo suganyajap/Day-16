@@ -1,0 +1,183 @@
+.svg
+{
+  color:white;
+  padding:20px 10px;
+}
+h3
+{
+ 
+  text-align:center;
+  color:white;
+  letter-spacing:3px;
+  margin-left:5rem;
+}
+
+header
+{
+  display:flex;
+  background-color:#2F3D46;
+  height:80px;
+  
+}
+.left
+{
+   height:250px;
+  width:180px;
+   margin:50px;
+  border-radius:20px;
+  background-color:#353535;
+}
+input
+{
+  background-color:#353535;
+  border-radius:15px;
+  margin:8px 50px;
+  width:200px;
+  height:25px;
+}
+.same
+{
+  background-color:#353535;
+  border-radius:15px;
+  height:70px;
+  width:150px;
+  margin-top:20px;
+  margin-left:30px;
+}
+.center
+{
+  
+}
+.last
+{
+   background-color:#353535;
+  border-radius:15px;
+  height:100px;
+  width:20rem;
+  margin-top:20px;
+}
+body
+{
+  font-family: 'Poppins', sans-serif;
+  background-color:#CAD2C5;
+}
+
+
+@media(min-width:730px)
+{
+    section
+  {
+    display:flex;
+  }
+    .center
+    {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+
+   .same
+   {
+    height:127px;
+    width:150px;
+    margin-top:20px;
+    margin-left:30px;
+   }
+   input
+   {
+    margin:124px 47px 47px;
+    width:432px;
+    height:45px;
+   }
+   .left{
+    height:450px;
+    width:180px;
+    margin:126px 25px 10px;
+    
+   }
+
+   .last{
+    height:152px;
+    width:30rem;
+    margin:70px 28px 19px 61px;
+}
+
+    h3
+    {
+    margin-left:17rem;
+    }
+
+
+   }
+
+
+  @media(min-width:850px)
+{
+  section
+  {
+    display:flex;
+  }
+}
+
+@media(min-width:1000px)
+{
+  section
+  {
+    display:flex;
+  }
+  h3{
+      margin-left:25rem;
+  }
+  .left{
+    height:450px;
+    width:260px;
+    margin:126px 25px 10px;
+  }
+  input{
+    margin:124px 47px 47px;
+    width:500px;
+    height:45px;
+    font-size:20px;
+    letter-spacing:3px;
+  }
+  .last{
+    height:152px;
+    width:35rem;
+    margin:70px 28px 19px 61px;
+}
+}
+
+
+@media(min-width:1280px)
+{
+  section
+  {
+    display:flex;
+    box-sizing: border-box;
+  }
+  h3{
+      margin-left:32rem;
+      font-size:22px;
+  }
+  .left{
+    height:530px;
+    width:350px;
+    margin:90px 35px 40px;
+  }
+  input{
+    margin:90px 47px 47px;
+    width:600px;
+    height:45px;
+    font-size:20px;
+    letter-spacing:3px;
+  }
+  .last{
+    height:150px;
+    width:50rem;
+    margin:40px;
+}
+.same{
+    height: 150px;
+    width: 200px;
+    margin:40px;
+}
+}
